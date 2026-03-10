@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Akram Fish House & Restaurant</title>
+    <meta name="description"
+        content="Explore our complete menu - Fish Fry, BBQ, Karahi, Chinese, Biryani and more. Fresh fish and authentic Desi cuisine.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">AFH</div>
+                <div class="logo-text">
+                    <h3>AKRAM FISH HOUSE</h3>
+                    <span>& Restaurant</span>
+                </div>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://wa.me/923336019800?text=Hi!%20I%20want%20to%20place%20an%20order" target="_blank"
+                    class="nav-cta">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu Page -->
+    <div class="menu-page">
+        <div class="container">
+            <!-- Page Title -->
+            <div class="section-title" style="padding-top:20px;">
+                <h2>Our Menu</h2>
+                <p class="urdu-title">ہمارا مینیو</p>
+                <p>Explore our complete selection of authentic Pakistani dishes</p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="menu-tabs-wrapper">
+                <div class="container">
+                    <div class="menu-tabs" id="menuTabs">
+                        <!-- Tabs rendered by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Content Container -->
+            <div id="menuContent">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Akram Fish House & Restaurant</h3>
+                    <p class="urdu-brand">اکرم فش ہاؤس اینڈ ریسٹورنٹ</p>
+                    <p>Serving authentic Pakistani Desi cuisine and the freshest fish specialties for 26 years.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/923336019800" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p>
+                        <i class="fas fa-phone" style="color: var(--gold); margin-right: 8px;"></i>
+                        Akram Khan: 0333-6019800<br>
+                        <i class="fas fa-phone" style="color: var(--gold); margin-right: 8px;"></i>
+                        Asghar Khan: 0333-6001553<br>
+                        <i class="fas fa-clock" style="color: var(--gold); margin-right: 8px;"></i>
+                        Open Daily: 11:00 AM – 12:00 AM
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Akram Fish House & Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/923336019800?text=Hi!%20I%20want%20to%20place%20an%20order" class="floating-whatsapp"
+        target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/menu-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
